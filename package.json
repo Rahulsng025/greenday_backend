@@ -1,0 +1,22 @@
+{
+  "name": "greenday_backend",
+  "version": "0.0.0",
+  "description": "Backend for the Greenday Project Assignment.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Singh",
+  "license": "MIT",
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "winston": "^3.3.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5"
+  }
+}
